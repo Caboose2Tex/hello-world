@@ -1,0 +1,29 @@
+<!-- mods.toml file for Forge -->
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="claudemod"
+version="1.0.0"
+displayName="Claude AI Assistant"
+authors="Caboose2Tex"
+description='''
+Adds Claude AI assistant to Minecraft. Talk to an AI helper in-game!
+Use @claude followed by your question or request.
+'''
+
+# Dependencies
+[[dependencies.claudemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.claudemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,)"
+    ordering="NONE"
+    side="BOTH"
